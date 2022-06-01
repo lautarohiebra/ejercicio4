@@ -112,6 +112,7 @@ p {
     border: solid white;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 button:hover{background-color: #bc105c;}
 
@@ -135,3 +136,4 @@ footer{
 span{text-align: center;
      font-size: 10px;
     font-weight: bold;}
+

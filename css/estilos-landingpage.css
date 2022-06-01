@@ -17,6 +17,27 @@ main{background-color: #bc105c;
     overflow: hidden;
 }
 
+.boton-volver{
+    display: flex;
+    top: 2.5%;
+    right: 15%;
+    position: absolute;
+    margin-top: 30px;}
+
+    .boton-volver button{background-color: #252525e3;
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    color: rgba(255, 255, 255, 0.788);
+    border-color: #25252500;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+    .boton-volver button:hover{
+        width: 75px;
+        height: 75px;
+        font-size: 35px;}
+
 .portada{overflow: hidden;
         max-height: 500px;}
 
@@ -75,7 +96,7 @@ margin: 2.5%;}
 
             .precio h3{font-size: 30px; font-weight: lighter;}
 
-                .precio h3 span{color: rgba(14, 14, 14, 0.568); text-decoration: line-through;}
+                .precio h3 span{color: rgba(136, 136, 136, 0.568); text-decoration: line-through;}
             
             .precio p{font-size: 16px; margin-top: 5px;}
 
@@ -108,13 +129,29 @@ margin: 2.5%;}
 
             .info-general ul{list-style: none;}
                 
-                .info-general ul li{font-size: 13px; font-weight: bold;}
+                .item-lista{
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+                    
+                .info-general ul li{
+                    font-size: 13px;
+                }
 
-        .pegi {display: flex; width: 80%;}
+        .pegi {
+            display: flex;
+            width: 80%;
+        }
 
-            .pegi p{margin-left: 15px; font-size: 12px;}
+            .pegi p{
+                margin-left: 15px; 
+                font-size: 12px;
+            }
 
-            .pegi img{width: 50px; height: 80px;}
+            .pegi img{
+                width: 50px; 
+                height: 80px;
+            }
 
     .botondecompra{
         align-items: center;
@@ -143,6 +180,16 @@ margin: 2.5%;}
     }
 
 /* IMAGENES */
+
+.imagenes-titulo{font-size: 40px;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f3167a;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
 
 .contenido-multimedia-imagenes-renglon1{margin-top: 15px;
     display: flex;
@@ -182,6 +229,28 @@ margin: 2.5%;}
     border: black solid 2px;
 }
 
+.boton-volver-final{display: flex;
+    margin-top:30px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+background-color: #222222;}
+
+    .boton-volver-final button{
+        width: 300px;
+        border-radius: 5px;
+        color:#ffffff;
+        background-color: #2eb11f;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+        }
+    
+    .boton-volver-final button:hover{background-color: #bc105c;}
+
 footer{
     color:white;
     background-color: rgba(255, 255, 255, 0.24);
@@ -193,7 +262,19 @@ footer{
     justify-content: center;
 }
 
-footer span{text-align: center;
-     font-size: 10px;
+footer{justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom:5px ;
+    height: 50px;
+    border-radius: 5px;}
+
+.texto-footer{ 
+    text-align: center;
+    font-size: 10px;
     font-weight: bold;}
+
+
 
